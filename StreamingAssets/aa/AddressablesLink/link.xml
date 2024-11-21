@@ -1,10 +1,13 @@
 <linker>
   <assembly fullname="CharacterCustomization.SMAIntegration, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="CustomizationScreen" preserve="all" />
+  </assembly>
+  <assembly fullname="CharacterCustomization.SMAIntegration.Services, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="SkinFactoryInstaller" preserve="all" />
   </assembly>
   <assembly fullname="CharacterCustomization.UI, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="ButtonScaleAnimation" preserve="all" />
+    <type fullname="DefaultItemsButton" preserve="all" />
     <type fullname="SelectCategoryPanel" preserve="all" />
     <type fullname="SkinMenuConfig" preserve="all" />
     <type fullname="SkinMenuItem" preserve="all" />
